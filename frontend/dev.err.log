@@ -1,0 +1,50 @@
+ ⨯ ./app/page.tsx
+Error:   [31mx[0m `ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a client component.
+   ,-[[36;1;4mC:\Users\NIKHIL SINGH\OneDrive\Desktop\pro\ai-trading-platform\frontend\app\page.tsx[0m:3:1]
+ [2m1[0m |     import dynamic from "next/dynamic";
+ [2m2[0m |     
+ [2m3[0m | [35;1m,[0m[35;1m-[0m[35;1m>[0m const SignalWorkbench = dynamic(() => import("../components/SignalWorkbench"), {
+ [2m4[0m | [35;1m|[0m     ssr: false,
+ [2m5[0m | [35;1m|[0m     loading: () => <section className="surface modules">Loading signal console...</section>,
+ [2m6[0m | [35;1m`[0m[35;1m-[0m[35;1m>[0m });
+ [2m7[0m |     
+ [2m8[0m |     const modules = [
+ [2m9[0m |       "Ingestion (news/social/market feeds)",
+   `----
+
+Import trace for requested module:
+./app/page.tsx
+ ⨯ ./app/page.tsx
+Error:   [31mx[0m `ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a client component.
+   ,-[[36;1;4mC:\Users\NIKHIL SINGH\OneDrive\Desktop\pro\ai-trading-platform\frontend\app\page.tsx[0m:3:1]
+ [2m1[0m |     import dynamic from "next/dynamic";
+ [2m2[0m |     
+ [2m3[0m | [35;1m,[0m[35;1m-[0m[35;1m>[0m const SignalWorkbench = dynamic(() => import("../components/SignalWorkbench"), {
+ [2m4[0m | [35;1m|[0m     ssr: false,
+ [2m5[0m | [35;1m|[0m     loading: () => <section className="surface modules">Loading signal console...</section>,
+ [2m6[0m | [35;1m`[0m[35;1m-[0m[35;1m>[0m });
+ [2m7[0m |     
+ [2m8[0m |     const modules = [
+ [2m9[0m |       "Ingestion (news/social/market feeds)",
+   `----
+
+Import trace for requested module:
+./app/page.tsx
+ ⨯ ./app/page.tsx
+Error:   [31mx[0m `ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a client component.
+   ,-[[36;1;4mC:\Users\NIKHIL SINGH\OneDrive\Desktop\pro\ai-trading-platform\frontend\app\page.tsx[0m:3:1]
+ [2m1[0m |     import dynamic from "next/dynamic";
+ [2m2[0m |     
+ [2m3[0m | [35;1m,[0m[35;1m-[0m[35;1m>[0m const SignalWorkbench = dynamic(() => import("../components/SignalWorkbench"), {
+ [2m4[0m | [35;1m|[0m     ssr: false,
+ [2m5[0m | [35;1m|[0m     loading: () => <section className="surface modules">Loading signal console...</section>,
+ [2m6[0m | [35;1m`[0m[35;1m-[0m[35;1m>[0m });
+ [2m7[0m |     
+ [2m8[0m |     const modules = [
+ [2m9[0m |       "Ingestion (news/social/market feeds)",
+   `----
+
+Import trace for requested module:
+./app/page.tsx
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload

@@ -1,0 +1,34 @@
+﻿[
+  {
+    "source": "news",
+    "headline": "India manufacturing PMI signals stronger expansion",
+    "body": "Factory output and employment accelerated in latest survey release.",
+    "symbols": ["NSE:NIFTY50", "NSE:LT"],
+    "sectors": ["Industrials"],
+    "region": "IN"
+  },
+  {
+    "source": "social",
+    "headline": "Multiple reports mention large private bank loan growth momentum",
+    "body": "Retail credit demand appears resilient across major metros.",
+    "symbols": ["NSE:HDFCBANK", "NSE:ICICIBANK"],
+    "sectors": ["Banking"],
+    "region": "IN"
+  },
+  {
+    "source": "market",
+    "headline": "NIFTY IT sees broad-based accumulation with improving breadth",
+    "body": "Volume participation rose while volatility stayed contained.",
+    "symbols": ["NSE:TCS", "NSE:INFY"],
+    "sectors": ["IT"],
+    "region": "IN"
+  },
+  {
+    "source": "news",
+    "headline": "US inflation cools faster than expected",
+    "body": "Rate-cut expectations increased in futures markets.",
+    "symbols": ["NASDAQ:QQQ", "NYSE:SPY"],
+    "sectors": ["Technology"],
+    "region": "US"
+  }
+]

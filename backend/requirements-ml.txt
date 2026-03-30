@@ -1,0 +1,6 @@
+# Optional heavy ML stack (install when compiler/toolchain and compatible Python wheels are available)
+torch==2.11.0
+transformers==4.48.1
+scikit-learn==1.6.1
+xgboost==2.1.3
+mlflow==2.20.1
